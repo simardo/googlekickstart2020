@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "rootDir": "src",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "target": "esnext",
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "lib": [
+            "es5",
+            "es6",
+            "dom"
+        ],
+        "module": "System",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "strictNullChecks": true,
+        "types": [
+            "node"
+        ]
+    }
+}
